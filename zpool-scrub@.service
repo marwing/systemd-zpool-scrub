@@ -6,4 +6,4 @@ After=zfs.target
 [Service]
 Type=oneshot
 ExecStartPre=-/usr/sbin/zpool scrub -s %I || true
-ExecStart=/usr/sbin/zpool scrub %I
+ExecStart=/usr/sbin/zpool scrub -w %I
