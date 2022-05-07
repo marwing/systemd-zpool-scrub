@@ -1,3 +1,8 @@
+# DEPRECATED
+AUTOMATIC SCRUB TIMERS ARE IN OPENZFS UPSTREAM.
+
+They were developed in openzfs/zfs#12193 and landed in zfs-2.1.3
+
 # zpool-scrub
 systemd zpool scrub service and timer
 
